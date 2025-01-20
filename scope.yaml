@@ -1,0 +1,101 @@
+course:
+  title: Les bases de données NoSQL
+  code: B3 IA, BIn320
+  lang: français
+  sessions: |
+    11 sessions, 28h + 2h de partiel
+    8 sessions de 2h, 3 de 4h
+  description: |
+    cours d’introduction au bases NoSQL pour des étudiant de Bachelor 3 en Aéronautique,
+    spécialité IA, dispensé en français.
+    Les bases de données NoSQL (30h)  (CM : 6h, TD : 4h, TP : 8h, Projet 10h et 2h de partiel)
+    Ce cours propose une exploration complète des bases de données NoSQL,
+    mettant l'accent sur les concepts fondamentaux, les types de bases de données NoSQL,
+    et les cas d'utilisation appropriés.
+    Les étudiants acqueront des compétences pratiques en travaillant sur des bases de données NoSQL populaires.
+    (MongoDB, Neo4j, ...)
+  Objectifs du cours:
+    Compréhension approfondie des bases de données NoSQL et de leur rôle dans le paysage des technologies de l'information.
+    Compétences pratiques dans la mise en œuvre et la gestion de bases de données NoSQL.
+    Capacité à choisir la bonne base de données NoSQL en fonction des besoins spécifiques d'un projet.
+    Préparation à travailler dans des bases de données diversifiés et évolutifs.
+
+  schedule:
+    2h 03/02/25 Lundi 08:30/10:30 2 2025-06 06 BIn320 Les bases de données NoSQL COURS 3DIA C506 - - 1/3|ALEXIS PERRIER
+    2h 03/02/25 Lundi 13:30/15:30 2 2025-06 06 BIn320 Les bases de données NoSQL TD 3DIA C502 - - 1/2|ALEXIS PERRIER
+    2h 05/02/25 Mercredi 13:30/15:30 2 2025-06 06 BIn320 Les bases de données NoSQL COURS 3DIA C207 - - 2/3|ALEXIS PERRIER
+    2h 10/02/25 Lundi 13:30/15:30 2 2025-07 07 BIn320 Les bases de données NoSQL TD 3DIA L021 - - 2/2|ALEXIS PERRIER
+    2h 14/02/25 Vendredi 13:30/15:30 2 2025-07 07 BIn320 Les bases de données NoSQL COURS 3DIA L020 - - 3/3|ALEXIS PERRIER
+    4h 07/03/25 Vendredi 13:30/17:30 4 2025-10 10 BIn320 Les bases de données NoSQL TP 3DIA L021 - - 2/4|ALEXIS PERRIER
+    2h 10/03/25 Lundi 10:30/12:30 2 2025-11 11 BIn320 Les bases de données NoSQL PROJET 3DIA C501 - - 1/5|ALEXIS PERRIER
+    2h 13/03/25 Jeudi 08:30/10:30 2 2025-11 11 BIn320 Les bases de données NoSQL PROJET 3DIA C207 - - 2/5|ALEXIS PERRIER
+    4h 14/03/25 Vendredi 13:30/17:30 4 2025-11 11 BIn320 Les bases de données NoSQL TP 3DIA C508 - - 4/4|ALEXIS PERRIER
+    4h 07/04/25 Lundi 13:30/17:30 4 2025-15 15 BIn320 Les bases de données NoSQL PROJET 3DIA L018c - - 3/5|ALEXIS PERRIER
+    2h 09/04/25 Mercredi 13:30/15:30 2 2025-15 15 BIn320 Les bases de données NoSQL PROJET 3DIA L018c - - 4/5|ALEXIS PERRIER
+
+  session 01:
+    logistics: 2h 03/02/25 Lundi 08:30/10:30 3DIA C506
+    content: |
+      2h intro du cours,
+      discord, github
+      evaluation, partiel
+      prez gal des bdd NoSQl, A world of databases, (slides en français)
+      mongo flexible schema
+      neo4j network
+      petit exercice mongo : use case vs SQL
+      petit exercice neo4j : use case vs SQL vs MongoDb
+      format data mongo json vs BSON
+      javascript for mongo
+      format data neo4j also json but different
+      use case mongo open food dataset
+      use case neo4j some big classic neo4j dataset, public transportation networks GTFS.zip
+      questionnaire: vos attentes
+  session 02:
+    logistics: 2h 03/02/25 Lundi 13:30/15:30 3DIA C502
+    content: |
+      2h hands on mongodb
+      ecosystem mongo
+      créer un compte sur mongo cloud
+      create a collection,
+      insert and update some documents,
+      run basic queries;
+      equivalence SQL vs NoSQL for querying
+      load and explore a few small dataset (Movies)
+    session 03:
+      title: 2h Mongo Deeper Dive,
+      logistics: 2h 03/02/25 Lundi 13:30/15:30 3DIA C502
+      content: |
+        db theory, filtering, projecting,
+        OLAP vs OLTP
+        schema patterns
+        avec exercices schema et exercices requetes
+        horizontal scaling with built-in support for sharding
+    session 04: |
+      2h MongoDb aggregation pipelines
+      lookups, match,
+      working with LLMs: how to, traps, cognitive offloading
+      Indexes in MongoDB
+      performance: explain()
+    session 05: 2h vector search in mongodb
+    session 06:
+      title: 4h projet mongo
+      logistics: 4h 07/03/25 Vendredi 13:30/17:30 3DIA L021
+      content: |
+        find a dataset
+        load as mongo collection
+        some queries
+
+    session 07: 2h Neo4j intro
+    session 08: 2h Neo4j querying, loading,
+    session 09: 4h vector search in Neo4j; data science in neo4j
+    session 10: 4h something; projet neo4j
+    session 11: 2h projet neo4j
+
+  Launch:
+    title: bienvenue
+    format: slides
+    content: |
+      bienvenue
+      syllabus du cours
+      evaluation
+      questionnaire pour vous connaitre
