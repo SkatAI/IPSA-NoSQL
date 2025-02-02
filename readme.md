@@ -18,3 +18,9 @@ Ce cours propose une exploration complète des bases de données NoSQL, mettant 
 - Compétences pratiques dans la mise en œuvre et la gestion de bases de données NoSQL.
 - Capacité à choisir la bonne base de données NoSQL en fonction des besoins spécifiques d'un projet.
 - Préparation à travailler dans des bases de données diversifiés et évolutifs.
+
+# ressources 
+
+- indexing in mongodb 
+https://medium.com/@farihatulmaria/what-are-the-best-practices-for-indexing-in-mongodb-to-optimize-query-performance-c2bea64453fb
+
