@@ -24,3 +24,9 @@ Ce cours propose une exploration complète des bases de données NoSQL, mettant 
 - indexing in mongodb 
 https://medium.com/@farihatulmaria/what-are-the-best-practices-for-indexing-in-mongodb-to-optimize-query-performance-c2bea64453fb
 
+- use case vector search audio and embessings 
+
+https://ai.gopubby.com/empowering-wind-turbine-diagnostics-with-vector-search-ais-transformative-role-in-manufacturing-ee6cb9c74878
+
+
+
