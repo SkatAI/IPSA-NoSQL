@@ -3,6 +3,7 @@
     - [create a new collection with $out](#create-a-new-collection-with-out)
     - [create a new field with  $addFields](#create-a-new-field-with--addfields)
     - [$unwind : work on each element of an array](#unwind--work-on-each-element-of-an-array)
+    - [Practice](#practice)
     - [grouping](#grouping)
       - [$group aggregation operators](#group-aggregation-operators)
       - [$push](#push)
@@ -214,6 +215,9 @@ db.movies.aggregate([
 ])
 ```
 
+
+### Practice
+
 Your turn : Write a pipeline that creates a normalized `weightedScore` from IMDb and Metacritic ratings,
 
 `weightedScore = (imdb.rating / 10) * (metacritic / 100)`
@@ -284,14 +288,14 @@ db.movies.aggregate([
 
 The $group stage supports certain expressions (operators) allowing users to perform arithmetic, array, boolean and other operations as part of the aggregation pipeline.
 
-| Operator | Meaning                                                       |
-|----------|---------------------------------------------------------------|
-| $count   | Calculates the quantity of documents in the given group.      |
+| Operator | Meaning                                                             |
+| -------- | ------------------------------------------------------------------- |
+| $count   | Calculates the quantity of documents in the given group.            |
 | $max     | Displays the maximum value of a document’s field in the collection. |
 | $min     | Displays the minimum value of a document’s field in the collection. |
 | $avg     | Displays the average value of a document’s field in the collection. |
-| $sum     | Sums up the specified values of all documents in the collection. |
-| $push    | Adds extra values into the array of the resulting document.   |
+| $sum     | Sums up the specified values of all documents in the collection.    |
+| $push    | Adds extra values into the array of the resulting document.         |
 
 #### $push
 
