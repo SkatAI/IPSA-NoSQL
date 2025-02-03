@@ -18,3 +18,17 @@ Ce cours propose une exploration complète des bases de données NoSQL, mettant 
 - Compétences pratiques dans la mise en œuvre et la gestion de bases de données NoSQL.
 - Capacité à choisir la bonne base de données NoSQL en fonction des besoins spécifiques d'un projet.
 - Préparation à travailler dans des bases de données diversifiés et évolutifs.
+
+# ressources 
+
+- indexing in mongodb 
+https://medium.com/@farihatulmaria/what-are-the-best-practices-for-indexing-in-mongodb-to-optimize-query-performance-c2bea64453fb
+
+- use case vector search audio and embessings 
+
+https://ai.gopubby.com/empowering-wind-turbine-diagnostics-with-vector-search-ais-transformative-role-in-manufacturing-ee6cb9c74878
+
+- build knowledge graph
+
+
+https://open.substack.com/pub/ontologist/p/creating-a-simple-knowledge-graph?r=f2r6v&utm_medium=ios
