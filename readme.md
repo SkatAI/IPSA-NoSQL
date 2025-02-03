@@ -28,5 +28,7 @@ https://medium.com/@farihatulmaria/what-are-the-best-practices-for-indexing-in-m
 
 https://ai.gopubby.com/empowering-wind-turbine-diagnostics-with-vector-search-ais-transformative-role-in-manufacturing-ee6cb9c74878
 
+- build knowledge graph
 
 
+https://open.substack.com/pub/ontologist/p/creating-a-simple-knowledge-graph?r=f2r6v&utm_medium=ios
