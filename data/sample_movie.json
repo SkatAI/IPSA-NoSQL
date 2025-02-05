@@ -1,0 +1,51 @@
+{
+  _id: ObjectId('573a1393f29313caabcdcb42'),
+  plot: 'Kate and her actor brother live in N.Y. in the 21st Century. Her ex-boyfriend, Stuart, lives above her apartment. Stuart finds a space near the Brooklyn Bridge where there is a gap in time....',
+  genres: [ 'Comedy', 'Fantasy', 'Romance'
+    ],
+  runtime: 118,
+  metacritic: 44,
+  rated: 'PG-13',
+  cast: [ 'Meg Ryan', 'Hugh Jackman', 'Liev Schreiber', 'Breckin Meyer'
+    ],
+  poster: 'https: //m.media-amazon.com/images/M/MV5BNmNlN2VlOTctYTdhMS00NzUxLTg0ZGMtYWE2ZTJmMThlMTk2XkEyXkFqcGdeQXVyMzI0NDc4ODY@._V1_SY1000_SX677_AL_.jpg',
+  title: 'Kate & Leopold',
+  fullplot: "Kate and her actor brother live in N.Y. in the 21st Century. Her ex-boyfriend, Stuart, lives above her apartment. Stuart finds a space near the Brooklyn Bridge where there is a gap in time. He goes back to the 19th Century and takes pictures of the place. Leopold -- a man living in the 1870s -- is puzzled by Stuart's tiny camera, follows him back through the gap, and they both ended up in the present day. Leopold is clueless about his new surroundings. He gets help and insight from Charlie who thinks that Leopold is an actor who is always in character. Leopold is a highly intelligent man and tries his best to learn and even improve the modern conveniences that he encounters.",
+  languages: [ 'English', 'French'
+    ],
+  released: ISODate('2001-12-25T00: 00: 00.000Z'),
+  directors: [ 'James Mangold'
+    ],
+  writers: [
+    'Steven Rogers (story)',
+    'James Mangold (screenplay)',
+    'Steven Rogers (screenplay)'
+    ],
+  awards: {
+    wins: 2,
+    nominations: 4,
+    text: 'Nominated for 1 Oscar. Another 1 win & 4 nominations.'
+    },
+  lastupdated: '2015-08-31 00: 19: 09.717000000',
+  year: 2001,
+  imdb: { rating: 6.3, votes: 59951, id: 35423
+    },
+  countries: [ 'USA'
+    ],
+  type: 'movie',
+  tomatoes: {
+    website: 'http: //www.kateandleopold-themovie.com',
+    viewer: { rating: 3, numReviews: 189426, meter: 62
+        },
+    dvd: ISODate('2002-06-11T00: 00: 00.000Z'),
+    critic: { rating: 5.3, numReviews: 126, meter: 50
+        },
+    boxOffice: '$47.1M',
+    consensus: 'Though Jackman charms, Kate and Leopold is bland and predictable, and the time travel scenario lacks inner logic.',
+    rotten: 63,
+    production: 'Miramax Films',
+    lastUpdated: ISODate('2015-08-22T18: 53: 25.000Z'),
+    fresh: 63
+    },
+  num_mflix_comments: 0
+}
