@@ -21,6 +21,12 @@ Ce cours propose une exploration complète des bases de données NoSQL, mettant 
 
 # ressources 
 
+- mongosh
+
+https://medium.com/@amitvsolutions/mongodb-mongosh-in-action-d815915b480f
+
+
+
 - schema design 
 
 https://medium.com/@farihatulmaria/how-to-design-efficient-schemas-in-mongodb-for-highly-scalable-applications-69e616725d32
