@@ -25,7 +25,9 @@ Ce cours propose une exploration complète des bases de données NoSQL, mettant 
 
 https://medium.com/@amitvsolutions/mongodb-mongosh-in-action-d815915b480f
 
+- install mongodb on windows 
 
+https://medium.com/@LondonAppBrewery/how-to-download-install-mongodb-on-windows-4ee4b3493514
 
 - schema design 
 
