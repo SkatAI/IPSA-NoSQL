@@ -78,3 +78,6 @@ https://medium.com/data-science-in-your-pocket/graph-analytics-relationship-link
 
 https://medium.com/neo4j/building-an-educational-platform-on-neo4j-d7dc195b9466
 
+- embeddings 
+
+https://levelup.gitconnected.com/vector-embeddings-explained-for-developers-6bd9800d3635
