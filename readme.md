@@ -72,6 +72,8 @@ https://medium.com/neo4j/generating-cypher-queries-with-chatgpt-4-on-any-graph-s
 
 https://medium.com/data-science-in-your-pocket/graph-analytics-pathfinding-algorithms-using-neo4j-c9bda1915077
 
+https://medium.com/data-science-in-your-pocket/graph-analytics-relationship-link-prediction-in-graphs-using-neo4j-79a81716e73a
+
 - neo4j based app  graph academy
 
 https://medium.com/neo4j/building-an-educational-platform-on-neo4j-d7dc195b9466
