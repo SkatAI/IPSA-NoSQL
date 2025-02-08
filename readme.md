@@ -30,5 +30,6 @@ https://ai.gopubby.com/empowering-wind-turbine-diagnostics-with-vector-search-ai
 
 - build knowledge graph
 
+https://medium.com/neo4j/llm-knowledge-graph-builder-first-release-of-2025-532828c4ba76
 
 https://open.substack.com/pub/ontologist/p/creating-a-simple-knowledge-graph?r=f2r6v&utm_medium=ios
