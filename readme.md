@@ -45,6 +45,11 @@ https://medium.com/@hnasr/mongodb-internal-architecture-9a32f1403d6f
 
 https://vishalrana9915.medium.com/deep-dive-into-mongodb-and-its-architecture-d6290b6d2285
 
+- upsate performance 
+
+https://medium.com/shelf-io-engineering/how-to-update-63-million-records-in-mongodb-50-faster-a6dbf23ec9b3
+
+
 - use case vector search audio and embessings 
 
 https://ai.gopubby.com/empowering-wind-turbine-diagnostics-with-vector-search-ais-transformative-role-in-manufacturing-ee6cb9c74878
