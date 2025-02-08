@@ -32,6 +32,7 @@ https://medium.com/@farihatulmaria/what-are-the-best-practices-for-indexing-in-m
 
 https://medium.com/@hnasr/mongodb-internal-architecture-9a32f1403d6f
 
+https://vishalrana9915.medium.com/deep-dive-into-mongodb-and-its-architecture-d6290b6d2285
 
 - use case vector search audio and embessings 
 
