@@ -21,6 +21,10 @@ Ce cours propose une exploration complète des bases de données NoSQL, mettant 
 
 # ressources 
 
+- schema design 
+
+https://medium.com/@farihatulmaria/how-to-design-efficient-schemas-in-mongodb-for-highly-scalable-applications-69e616725d32
+
 - indexing in mongodb 
 https://medium.com/@farihatulmaria/what-are-the-best-practices-for-indexing-in-mongodb-to-optimize-query-performance-c2bea64453fb
 
