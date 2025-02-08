@@ -59,3 +59,7 @@ https://ai.gopubby.com/empowering-wind-turbine-diagnostics-with-vector-search-ai
 https://medium.com/neo4j/llm-knowledge-graph-builder-first-release-of-2025-532828c4ba76
 
 https://open.substack.com/pub/ontologist/p/creating-a-simple-knowledge-graph?r=f2r6v&utm_medium=ios
+
+- neo4j bollywood graph 
+
+https://medium.com/towards-data-science/neo4j-for-bollywood-5ceb371031f1
