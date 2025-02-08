@@ -68,3 +68,7 @@ https://medium.com/towards-data-science/neo4j-for-bollywood-5ceb371031f1
 
 https://medium.com/neo4j/generating-cypher-queries-with-chatgpt-4-on-any-graph-schema-a57d7082a7e7
 
+- neo4j shortest path algos 
+
+https://medium.com/data-science-in-your-pocket/graph-analytics-pathfinding-algorithms-using-neo4j-c9bda1915077
+
