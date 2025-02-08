@@ -63,3 +63,8 @@ https://open.substack.com/pub/ontologist/p/creating-a-simple-knowledge-graph?r=f
 - neo4j bollywood graph 
 
 https://medium.com/towards-data-science/neo4j-for-bollywood-5ceb371031f1
+
+- cypher + gpt4 
+
+https://medium.com/neo4j/generating-cypher-queries-with-chatgpt-4-on-any-graph-schema-a57d7082a7e7
+
