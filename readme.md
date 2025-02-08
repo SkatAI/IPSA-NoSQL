@@ -36,6 +36,9 @@ https://medium.com/@farihatulmaria/how-to-design-efficient-schemas-in-mongodb-fo
 - indexing in mongodb 
 https://medium.com/@farihatulmaria/what-are-the-best-practices-for-indexing-in-mongodb-to-optimize-query-performance-c2bea64453fb
 
+https://medium.com/@farihatulmaria/avoiding-common-pitfalls-in-mongodb-indexing-an-advanced-guide-e27a4c1a77c7
+
+
 - internal architecture
 
 https://medium.com/@hnasr/mongodb-internal-architecture-9a32f1403d6f
