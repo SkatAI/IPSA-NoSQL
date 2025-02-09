@@ -21,6 +21,10 @@ Ce cours propose une exploration complète des bases de données NoSQL, mettant 
 
 # ressources
 
+- aggregation pipelines
+
+[fr] https://studio3t.com/fr/knowledge-base/articles/mongodb-aggregation-framework/
+
 - mongosh
 
 https://medium.com/@amitvsolutions/mongodb-mongosh-in-action-d815915b480f
@@ -33,7 +37,10 @@ https://medium.com/@LondonAppBrewery/how-to-download-install-mongodb-on-windows-
 
 https://medium.com/@farihatulmaria/how-to-design-efficient-schemas-in-mongodb-for-highly-scalable-applications-69e616725d32
 
+https://learn.mongodb.com/courses/schema-design-patterns
+
 - indexing in mongodb
+-
 https://medium.com/@farihatulmaria/what-are-the-best-practices-for-indexing-in-mongodb-to-optimize-query-performance-c2bea64453fb
 
 https://medium.com/@farihatulmaria/avoiding-common-pitfalls-in-mongodb-indexing-an-advanced-guide-e27a4c1a77c7
