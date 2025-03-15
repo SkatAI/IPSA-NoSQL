@@ -1,0 +1,344 @@
+﻿[
+  {
+    "nodes": [
+      {
+        "identity": -29642,
+        "labels": [
+          "Hashtag"
+        ],
+        "properties": {
+          "name": "Hashtag",
+          "indexes": [],
+          "constraints": [
+            "Constraint( id=17, name='constraint_71a506e6', type='UNIQUENESS', schema=(:Hashtag {name}), ownedIndex=16 )"
+          ]
+        },
+        "elementId": "-29642"
+      },
+      {
+        "identity": -29639,
+        "labels": [
+          "User"
+        ],
+        "properties": {
+          "name": "User",
+          "indexes": [],
+          "constraints": [
+            "Constraint( id=15, name='constraint_9191d2a4', type='UNIQUENESS', schema=(:User {screen_name}), ownedIndex=14 )"
+          ]
+        },
+        "elementId": "-29639"
+      },
+      {
+        "identity": -29641,
+        "labels": [
+          "Tweet"
+        ],
+        "properties": {
+          "name": "Tweet",
+          "indexes": [
+            "created_at"
+          ],
+          "constraints": [
+            "Constraint( id=21, name='constraint_5f75e2f6', type='UNIQUENESS', schema=(:Tweet {id}), ownedIndex=20 )"
+          ]
+        },
+        "elementId": "-29641"
+      },
+      {
+        "identity": -29640,
+        "labels": [
+          "Me"
+        ],
+        "properties": {
+          "name": "Me",
+          "indexes": [],
+          "constraints": []
+        },
+        "elementId": "-29640"
+      },
+      {
+        "identity": -29643,
+        "labels": [
+          "Link"
+        ],
+        "properties": {
+          "name": "Link",
+          "indexes": [],
+          "constraints": [
+            "Constraint( id=23, name='constraint_d198d4ee', type='UNIQUENESS', schema=(:Link {url}), ownedIndex=22 )"
+          ]
+        },
+        "elementId": "-29643"
+      },
+      {
+        "identity": -29644,
+        "labels": [
+          "Source"
+        ],
+        "properties": {
+          "name": "Source",
+          "indexes": [],
+          "constraints": [
+            "Constraint( id=19, name='constraint_189951f0', type='UNIQUENESS', schema=(:Source {name}), ownedIndex=18 )"
+          ]
+        },
+        "elementId": "-29644"
+      }
+    ],
+    "relationships": [
+      {
+        "identity": -80013,
+        "start": -29641,
+        "end": -29644,
+        "type": "USING",
+        "properties": {
+          "name": "USING"
+        },
+        "elementId": "-80013",
+        "startNodeElementId": "-29641",
+        "endNodeElementId": "-29644"
+      },
+      {
+        "identity": -80026,
+        "start": -29639,
+        "end": -29639,
+        "type": "SIMILAR_TO",
+        "properties": {
+          "name": "SIMILAR_TO"
+        },
+        "elementId": "-80026",
+        "startNodeElementId": "-29639",
+        "endNodeElementId": "-29639"
+      },
+      {
+        "identity": -80027,
+        "start": -29639,
+        "end": -29640,
+        "type": "SIMILAR_TO",
+        "properties": {
+          "name": "SIMILAR_TO"
+        },
+        "elementId": "-80027",
+        "startNodeElementId": "-29639",
+        "endNodeElementId": "-29640"
+      },
+      {
+        "identity": -80025,
+        "start": -29640,
+        "end": -29639,
+        "type": "AMPLIFIES",
+        "properties": {
+          "name": "AMPLIFIES"
+        },
+        "elementId": "-80025",
+        "startNodeElementId": "-29640",
+        "endNodeElementId": "-29639"
+      },
+      {
+        "identity": -80024,
+        "start": -29639,
+        "end": -29639,
+        "type": "AMPLIFIES",
+        "properties": {
+          "name": "AMPLIFIES"
+        },
+        "elementId": "-80024",
+        "startNodeElementId": "-29639",
+        "endNodeElementId": "-29639"
+      },
+      {
+        "identity": -80022,
+        "start": -29639,
+        "end": -29639,
+        "type": "RT_MENTIONS",
+        "properties": {
+          "name": "RT_MENTIONS"
+        },
+        "elementId": "-80022",
+        "startNodeElementId": "-29639",
+        "endNodeElementId": "-29639"
+      },
+      {
+        "identity": -80023,
+        "start": -29640,
+        "end": -29639,
+        "type": "RT_MENTIONS",
+        "properties": {
+          "name": "RT_MENTIONS"
+        },
+        "elementId": "-80023",
+        "startNodeElementId": "-29640",
+        "endNodeElementId": "-29639"
+      },
+      {
+        "identity": -80010,
+        "start": -29640,
+        "end": -29640,
+        "type": "FOLLOWS",
+        "properties": {
+          "name": "FOLLOWS"
+        },
+        "elementId": "-80010",
+        "startNodeElementId": "-29640",
+        "endNodeElementId": "-29640"
+      },
+      {
+        "identity": -80007,
+        "start": -29639,
+        "end": -29639,
+        "type": "FOLLOWS",
+        "properties": {
+          "name": "FOLLOWS"
+        },
+        "elementId": "-80007",
+        "startNodeElementId": "-29639",
+        "endNodeElementId": "-29639"
+      },
+      {
+        "identity": -80009,
+        "start": -29640,
+        "end": -29639,
+        "type": "FOLLOWS",
+        "properties": {
+          "name": "FOLLOWS"
+        },
+        "elementId": "-80009",
+        "startNodeElementId": "-29640",
+        "endNodeElementId": "-29639"
+      },
+      {
+        "identity": -80008,
+        "start": -29639,
+        "end": -29640,
+        "type": "FOLLOWS",
+        "properties": {
+          "name": "FOLLOWS"
+        },
+        "elementId": "-80008",
+        "startNodeElementId": "-29639",
+        "endNodeElementId": "-29640"
+      },
+      {
+        "identity": -80020,
+        "start": -29639,
+        "end": -29639,
+        "type": "INTERACTS_WITH",
+        "properties": {
+          "name": "INTERACTS_WITH"
+        },
+        "elementId": "-80020",
+        "startNodeElementId": "-29639",
+        "endNodeElementId": "-29639"
+      },
+      {
+        "identity": -80021,
+        "start": -29640,
+        "end": -29639,
+        "type": "INTERACTS_WITH",
+        "properties": {
+          "name": "INTERACTS_WITH"
+        },
+        "elementId": "-80021",
+        "startNodeElementId": "-29640",
+        "endNodeElementId": "-29639"
+      },
+      {
+        "identity": -80018,
+        "start": -29641,
+        "end": -29641,
+        "type": "RETWEETS",
+        "properties": {
+          "name": "RETWEETS"
+        },
+        "elementId": "-80018",
+        "startNodeElementId": "-29641",
+        "endNodeElementId": "-29641"
+      },
+      {
+        "identity": -80019,
+        "start": -29641,
+        "end": -29641,
+        "type": "REPLY_TO",
+        "properties": {
+          "name": "REPLY_TO"
+        },
+        "elementId": "-80019",
+        "startNodeElementId": "-29641",
+        "endNodeElementId": "-29641"
+      },
+      {
+        "identity": -80015,
+        "start": -29641,
+        "end": -29643,
+        "type": "CONTAINS",
+        "properties": {
+          "name": "CONTAINS"
+        },
+        "elementId": "-80015",
+        "startNodeElementId": "-29641",
+        "endNodeElementId": "-29643"
+      },
+      {
+        "identity": -80017,
+        "start": -29641,
+        "end": -29640,
+        "type": "MENTIONS",
+        "properties": {
+          "name": "MENTIONS"
+        },
+        "elementId": "-80017",
+        "startNodeElementId": "-29641",
+        "endNodeElementId": "-29640"
+      },
+      {
+        "identity": -80016,
+        "start": -29641,
+        "end": -29639,
+        "type": "MENTIONS",
+        "properties": {
+          "name": "MENTIONS"
+        },
+        "elementId": "-80016",
+        "startNodeElementId": "-29641",
+        "endNodeElementId": "-29639"
+      },
+      {
+        "identity": -80014,
+        "start": -29641,
+        "end": -29642,
+        "type": "TAGS",
+        "properties": {
+          "name": "TAGS"
+        },
+        "elementId": "-80014",
+        "startNodeElementId": "-29641",
+        "endNodeElementId": "-29642"
+      },
+      {
+        "identity": -80011,
+        "start": -29639,
+        "end": -29641,
+        "type": "POSTS",
+        "properties": {
+          "name": "POSTS"
+        },
+        "elementId": "-80011",
+        "startNodeElementId": "-29639",
+        "endNodeElementId": "-29641"
+      },
+      {
+        "identity": -80012,
+        "start": -29640,
+        "end": -29641,
+        "type": "POSTS",
+        "properties": {
+          "name": "POSTS"
+        },
+        "elementId": "-80012",
+        "startNodeElementId": "-29640",
+        "endNodeElementId": "-29641"
+      }
+    ]
+  }
+]

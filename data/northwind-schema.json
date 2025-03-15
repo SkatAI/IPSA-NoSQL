@@ -1,0 +1,27 @@
+[
+  {
+    "Employee": "Peacock",
+    "DegreeScore": 156,
+    "NormalizedDegreeScore": 0.18795180722891566
+  },
+  {
+    "Employee": "Leverling",
+    "DegreeScore": 127,
+    "NormalizedDegreeScore": 0.1530120481927711
+  },
+  {
+    "Employee": "Davolio",
+    "DegreeScore": 123,
+    "NormalizedDegreeScore": 0.14819277108433734
+  },
+  {
+    "Employee": "Callahan",
+    "DegreeScore": 104,
+    "NormalizedDegreeScore": 0.12530120481927712
+  },
+  {
+    "Employee": "Fuller",
+    "DegreeScore": 96,
+    "NormalizedDegreeScore": 0.11566265060240964
+  }
+]

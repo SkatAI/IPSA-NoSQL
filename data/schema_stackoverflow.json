@@ -1,0 +1,396 @@
+﻿[
+  {
+    "nodes": [
+      {
+        "identity": -29612,
+        "labels": [
+          "_Bloom_Perspective_"
+        ],
+        "properties": {
+          "name": "_Bloom_Perspective_",
+          "indexes": [],
+          "constraints": [
+            "Constraint( id=3, name='constraint_f7832722', type='UNIQUENESS', schema=(:_Bloom_Perspective_ {id}), ownedIndex=1 )"
+          ]
+        },
+        "elementId": "-29612"
+      },
+      {
+        "identity": -29611,
+        "labels": [
+          "Answer"
+        ],
+        "properties": {
+          "name": "Answer",
+          "indexes": [],
+          "constraints": []
+        },
+        "elementId": "-29611"
+      },
+      {
+        "identity": -29608,
+        "labels": [
+          "User"
+        ],
+        "properties": {
+          "name": "User",
+          "indexes": [
+            "upvotes",
+            "age",
+            "createdAt",
+            "name",
+            "accountId",
+            "reputation",
+            "location",
+            "views"
+          ],
+          "constraints": [
+            "Constraint( id=76, name='constraint_47e7f15d', type='UNIQUENESS', schema=(:User {id}), ownedIndex=75 )"
+          ]
+        },
+        "elementId": "-29608"
+      },
+      {
+        "identity": -29607,
+        "labels": [
+          "Post"
+        ],
+        "properties": {
+          "name": "Post",
+          "indexes": [],
+          "constraints": [
+            "Constraint( id=74, name='constraint_8a34654d', type='UNIQUENESS', schema=(:Post {id}), ownedIndex=73 )"
+          ]
+        },
+        "elementId": "-29607"
+      },
+      {
+        "identity": -29610,
+        "labels": [
+          "Question"
+        ],
+        "properties": {
+          "name": "Question",
+          "indexes": [
+            "updatedAt",
+            "views",
+            "answers",
+            "score",
+            "createdAt",
+            "favorites",
+            "comments",
+            "title"
+          ],
+          "constraints": []
+        },
+        "elementId": "-29610"
+      },
+      {
+        "identity": -29609,
+        "labels": [
+          "Tag"
+        ],
+        "properties": {
+          "name": "Tag",
+          "indexes": [
+            "count"
+          ],
+          "constraints": [
+            "Constraint( id=72, name='constraint_64b1b1cf', type='UNIQUENESS', schema=(:Tag {name}), ownedIndex=71 )"
+          ]
+        },
+        "elementId": "-29609"
+      },
+      {
+        "identity": -29613,
+        "labels": [
+          "_Bloom_Scene_"
+        ],
+        "properties": {
+          "name": "_Bloom_Scene_",
+          "indexes": [],
+          "constraints": []
+        },
+        "elementId": "-29613"
+      }
+    ],
+    "relationships": [
+      {
+        "identity": -79937,
+        "start": -29610,
+        "end": -29609,
+        "type": "TAGGED",
+        "properties": {
+          "name": "TAGGED"
+        },
+        "elementId": "-79937",
+        "startNodeElementId": "-29610",
+        "endNodeElementId": "-29609"
+      },
+      {
+        "identity": -79936,
+        "start": -29607,
+        "end": -29609,
+        "type": "TAGGED",
+        "properties": {
+          "name": "TAGGED"
+        },
+        "elementId": "-79936",
+        "startNodeElementId": "-29607",
+        "endNodeElementId": "-29609"
+      },
+      {
+        "identity": -79938,
+        "start": -29611,
+        "end": -29609,
+        "type": "TAGGED",
+        "properties": {
+          "name": "TAGGED"
+        },
+        "elementId": "-79938",
+        "startNodeElementId": "-29611",
+        "endNodeElementId": "-29609"
+      },
+      {
+        "identity": -79921,
+        "start": -29607,
+        "end": -29607,
+        "type": "ANSWERED",
+        "properties": {
+          "name": "ANSWERED"
+        },
+        "elementId": "-79921",
+        "startNodeElementId": "-29607",
+        "endNodeElementId": "-29607"
+      },
+      {
+        "identity": -79922,
+        "start": -29607,
+        "end": -29610,
+        "type": "ANSWERED",
+        "properties": {
+          "name": "ANSWERED"
+        },
+        "elementId": "-79922",
+        "startNodeElementId": "-29607",
+        "endNodeElementId": "-29610"
+      },
+      {
+        "identity": -79924,
+        "start": -29611,
+        "end": -29607,
+        "type": "ANSWERED",
+        "properties": {
+          "name": "ANSWERED"
+        },
+        "elementId": "-79924",
+        "startNodeElementId": "-29611",
+        "endNodeElementId": "-29607"
+      },
+      {
+        "identity": -79923,
+        "start": -29607,
+        "end": -29611,
+        "type": "ANSWERED",
+        "properties": {
+          "name": "ANSWERED"
+        },
+        "elementId": "-79923",
+        "startNodeElementId": "-29607",
+        "endNodeElementId": "-29611"
+      },
+      {
+        "identity": -79926,
+        "start": -29611,
+        "end": -29611,
+        "type": "ANSWERED",
+        "properties": {
+          "name": "ANSWERED"
+        },
+        "elementId": "-79926",
+        "startNodeElementId": "-29611",
+        "endNodeElementId": "-29611"
+      },
+      {
+        "identity": -79925,
+        "start": -29611,
+        "end": -29610,
+        "type": "ANSWERED",
+        "properties": {
+          "name": "ANSWERED"
+        },
+        "elementId": "-79925",
+        "startNodeElementId": "-29611",
+        "endNodeElementId": "-29610"
+      },
+      {
+        "identity": -79928,
+        "start": -29607,
+        "end": -29610,
+        "type": "ACCEPTED",
+        "properties": {
+          "name": "ACCEPTED"
+        },
+        "elementId": "-79928",
+        "startNodeElementId": "-29607",
+        "endNodeElementId": "-29610"
+      },
+      {
+        "identity": -79935,
+        "start": -29611,
+        "end": -29611,
+        "type": "ACCEPTED",
+        "properties": {
+          "name": "ACCEPTED"
+        },
+        "elementId": "-79935",
+        "startNodeElementId": "-29611",
+        "endNodeElementId": "-29611"
+      },
+      {
+        "identity": -79932,
+        "start": -29610,
+        "end": -29611,
+        "type": "ACCEPTED",
+        "properties": {
+          "name": "ACCEPTED"
+        },
+        "elementId": "-79932",
+        "startNodeElementId": "-29610",
+        "endNodeElementId": "-29611"
+      },
+      {
+        "identity": -79930,
+        "start": -29610,
+        "end": -29607,
+        "type": "ACCEPTED",
+        "properties": {
+          "name": "ACCEPTED"
+        },
+        "elementId": "-79930",
+        "startNodeElementId": "-29610",
+        "endNodeElementId": "-29607"
+      },
+      {
+        "identity": -79933,
+        "start": -29611,
+        "end": -29607,
+        "type": "ACCEPTED",
+        "properties": {
+          "name": "ACCEPTED"
+        },
+        "elementId": "-79933",
+        "startNodeElementId": "-29611",
+        "endNodeElementId": "-29607"
+      },
+      {
+        "identity": -79931,
+        "start": -29610,
+        "end": -29610,
+        "type": "ACCEPTED",
+        "properties": {
+          "name": "ACCEPTED"
+        },
+        "elementId": "-79931",
+        "startNodeElementId": "-29610",
+        "endNodeElementId": "-29610"
+      },
+      {
+        "identity": -79927,
+        "start": -29607,
+        "end": -29607,
+        "type": "ACCEPTED",
+        "properties": {
+          "name": "ACCEPTED"
+        },
+        "elementId": "-79927",
+        "startNodeElementId": "-29607",
+        "endNodeElementId": "-29607"
+      },
+      {
+        "identity": -79929,
+        "start": -29607,
+        "end": -29611,
+        "type": "ACCEPTED",
+        "properties": {
+          "name": "ACCEPTED"
+        },
+        "elementId": "-79929",
+        "startNodeElementId": "-29607",
+        "endNodeElementId": "-29611"
+      },
+      {
+        "identity": -79934,
+        "start": -29611,
+        "end": -29610,
+        "type": "ACCEPTED",
+        "properties": {
+          "name": "ACCEPTED"
+        },
+        "elementId": "-79934",
+        "startNodeElementId": "-29611",
+        "endNodeElementId": "-29610"
+      },
+      {
+        "identity": -79940,
+        "start": -29608,
+        "end": -29610,
+        "type": "POSTED",
+        "properties": {
+          "name": "POSTED"
+        },
+        "elementId": "-79940",
+        "startNodeElementId": "-29608",
+        "endNodeElementId": "-29610"
+      },
+      {
+        "identity": -79939,
+        "start": -29608,
+        "end": -29607,
+        "type": "POSTED",
+        "properties": {
+          "name": "POSTED"
+        },
+        "elementId": "-79939",
+        "startNodeElementId": "-29608",
+        "endNodeElementId": "-29607"
+      },
+      {
+        "identity": -79941,
+        "start": -29608,
+        "end": -29611,
+        "type": "POSTED",
+        "properties": {
+          "name": "POSTED"
+        },
+        "elementId": "-79941",
+        "startNodeElementId": "-29608",
+        "endNodeElementId": "-29611"
+      },
+      {
+        "identity": -79942,
+        "start": -29609,
+        "end": -29609,
+        "type": "SIMILAR",
+        "properties": {
+          "name": "SIMILAR"
+        },
+        "elementId": "-79942",
+        "startNodeElementId": "-29609",
+        "endNodeElementId": "-29609"
+      },
+      {
+        "identity": -79943,
+        "start": -29612,
+        "end": -29613,
+        "type": "_Bloom_HAS_SCENE_",
+        "properties": {
+          "name": "_Bloom_HAS_SCENE_"
+        },
+        "elementId": "-79943",
+        "startNodeElementId": "-29612",
+        "endNodeElementId": "-29613"
+      }
+    ]
+  }
+]
